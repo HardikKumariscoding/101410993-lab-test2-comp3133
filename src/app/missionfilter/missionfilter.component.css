@@ -1,0 +1,16 @@
+/* src/app/missionfilter/missionfilter.component.css */
+.filter-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.filter-container label {
+    margin-right: 10px;
+}
+
+.filter-container input {
+    padding: 5px;
+}

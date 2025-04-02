@@ -1,0 +1,15 @@
+<div *ngIf="mission" class="details-container">
+    <h1>Mission Details</h1>
+    <h2>{{mission.mission_name}}</h2>
+    <p>Flight Number: {{mission.flight_number}}</p>
+    <p>Launch Year: {{mission.launch_year}}</p>
+    <img [src]="mission.links.mission_patch_small" alt="Mission Patch">
+    <p>Rocket Name: {{mission.rocket.rocket_name}}</p>
+    <p>Rocket Type: {{mission.rocket.rocket_type}}</p>
+    <p>{{mission.details}}</p>
+    <a *ngIf="mission?.links?.article_link" [href]="mission.links.article_link" target="_blank">Article</a> |
+    <a *ngIf="mission?.links?.wikipedia" [href]="mission.links.wikipedia" target="_blank">Wikipedia</a> |
+    <a *ngIf="mission?.links?.video_link" [href]="mission.links.video_link" target="_blank">Video</a>
+    <br>
+    <button (click)="goBack()">Go Back to Mission List</button>  
+</div>

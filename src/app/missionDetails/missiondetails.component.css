@@ -1,0 +1,29 @@
+/* src/app/missiondetails/missiondetails.component.css */
+.details-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.details-container h1 {
+    color: #0056b3;
+}
+
+.details-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.details-container a {
+    margin-right: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.details-container a:hover {
+    text-decoration: underline;
+}

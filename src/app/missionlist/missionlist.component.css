@@ -1,0 +1,28 @@
+/* src/app/missionlist/missionlist.component.css */
+.container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.mission-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.mission-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mission-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.mission-item h2 {
+    margin-top: 0;
+    color: #0056b3;
+}
